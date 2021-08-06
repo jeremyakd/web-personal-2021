@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import json
 def home(request):
-    # Var
+    # Variables que se van a mandar al template mediante el contexto
     name = 'Jeremias'
     lastname = 'López'
     context = {
