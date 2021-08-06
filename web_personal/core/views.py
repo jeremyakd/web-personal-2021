@@ -1,10 +1,17 @@
-from django.shortcuts import render, HttpResponse
-
+from django.shortcuts import render
+import json
 def home(request):
-    return render(request, 'core/home.html')
+    # Var
+    name = 'Jeremias'
+    lastname = 'López'
+    context = {
+        'name' : name,
+        'lastname' : lastname
+    }
+    return render(request, 'core/home.html', context=context)
 
 def about(request):
-    return render(request, 'core/about.html')
+	return render(request, 'core/about.html')
 
 def portfolio(request):
     return render(request, 'core/portfolio.html')
