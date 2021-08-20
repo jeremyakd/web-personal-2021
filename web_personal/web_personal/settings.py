@@ -116,7 +116,7 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# MEDIA_URL indica donde van a ir a parar los archivos media. Fotos, videos audios ...
+# MEDIA_URL indica donde van a ir a parar los archivos media. Fotos, videos, audios ...
 MEDIA_URL = '/media/'
 
 # MEDIA_ROOT indica la ruta absoluta donde yacen los archivos media.
