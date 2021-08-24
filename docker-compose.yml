@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+
+  web:
+    #build: .
+    image: mi-hermosa-web-con-django:0.0.1
+    command: python web_personal/manage.py runserver 0.0.0.0:5000
+    volumes:
+      - .:/code
+    ports:
+      - "5000:5000"

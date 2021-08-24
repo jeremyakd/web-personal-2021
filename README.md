@@ -28,3 +28,11 @@ crear las vistas de:
 - about
 - portfolio
 - contact
+
+## instalar docker y docker-compose
+
+crear imagen a partir de un dockerfile
+    docker build <opcional --tag para asignar etiqueta> .
+
+con el docker-compose.yml creado levantamos
+    docker-compose -f docker-compose.yml up < -d para correr en background>
